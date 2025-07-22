@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <a href="#" class="logo"><span>P</span>orfolio</a>
+            <i class='bx bx-menu' id="menu"></i>
+            <ul class="nav-links" id="links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- 1st section -->
+    <section id="home">
+        <div class="details">
+            <h1>Welcome,<br>I'm <span>Uzair Khalid</span> </h1>
+            <p>Hi, I'm Uzair Khalid, a passionate Front-End Developer dedicated to crafting visually stunning and
+                user-friendly digital experiences. With a keen eye for detail and a love for coding, I bring designs to
+                life using HTML, CSS, and JavaScript.</p>
+            <a href="#about"><button class="learn-btn">Learn More</button></a>
+        </div>
+        <div class="jpg">
+            <img src="./assets/profile-1.jpg">
+        </div>
+    </section>
+
+    <!-- section-2 -->
+    <section id="about">
+
+        <div class="about">
+            <div class="cv-img">
+                <img src="./assets/profile.jpg">
+            </div>
+            <div class="cv-details">
+                <h1><span>A</span>bout me</h1>
+                <p>I'm a passionate frontend developer with a love for crafting engaging, responsive, and user-friendly web experiences. I specialize in building interfaces with modern technologies like HTML, CSS, JavaScript, and frameworks like React or Vue. I focus on writing clean, maintainable code and delivering pixel-perfect designs.</p>
+                <a href="https://docs.google.com/document/d/1DDAGrDMEowr_whxTKOEdLQe21_uzE1lo/edit?usp=sharing&ouid=117016522653689061175&rtpof=true&sd=true"><button  class="cv-btn">Download CV</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- About section ended -->
+    <section id="services">
+        <h1>What i can do <span>!</span></h1>
+        <div class="services">
+            <div class="service">
+                <i class='bx bxs-paint'></i>
+                <h2>Web Design</h2>
+                <p>Creating visually appealing, user-centric website designs that capture your brand's essence and drive user engagement.
+</p>
+            </div>
+            <div class="service">
+                <i class='bx bxs-code-alt'></i>
+                <h2>Web Development</h2>
+                <p>Building responsive, fast, and scalable websites using modern technologies like HTML, CSS, JavaScript, and popular frameworks.
+</p>
+            </div>
+            <div class="service">
+                <i class='bx bxs-bulb'></i>
+                <h2>UI/UX Design</h2>
+                <p>Designing intuitive and engaging user interfaces with a focus on user experience best practices, ensuring seamless interactions and delightful experiences.
+</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1><span>R</span>ecent Projects</h1>
+        <div class="projects">
+            
+            <div class="project">
+                <a href="#">Porfolio</a>
+                  <div class="proj-details">
+                      <p>Personal porfolio website using Html Css And JavaScript</p>
+                      <i class='bx bx-chevron-right-circle'></i>
+                </div>
+            </div>      
+
+            <div class="project"><a href="#">Calculator</a>
+                  <div class="proj-details">
+                      <p>Funtional calculator with html css and JavaScript</p>
+                      <i class='bx bx-chevron-right-circle'></i>
+                </div>
+            </div>
+
+            <div class="project"><a href="#">Quiz Game</a>
+                <div class="proj-details">
+                    <p>App quiz Game with final score and highest score</p>
+                    <i class='bx bx-chevron-right-circle'></i>
+                </div>
+            </div>
+
+            <div class="project"><a href="#">Random Password</a>
+                  <div class="proj-details">           
+                      <p>Generating password Randomly and copy.</p>
+                      <i class='bx bx-chevron-right-circle'></i>
+                </div>
+        </div>
+    
+            <div>
+        </div>
+    </section>
+
+    <div id="contact">
+        <div class="Connection">
+            <div class="contact-details">
+                <h1>Stay connected</h1>
+                <div class="icons">
+                <a title="Gethub" href="https://github.com/Uzairkhalid305"><img src="./assets/icons8-github-logo-100.png"></a>
+                <a title="WhatsApp" href="https://www.whatsapp.com/"><img src="./assets/icons8-whatsapp-188.png" ></a>
+                <a title="linkedin" href="https://www.linkedin.com/feed/"><img src="./assets/icons8-linkedin-48.png" ></a>
+            </div>
+                <label for="phone">PHONE: </label>
+                <a href="#">+92 305-9430303</a></p>
+                <label for="email">Email: </label>
+                <a href="#">uzairk9430303@gmail.com</a>
+            </div>
+            <div class="message-sec">
+<form id="contactForm">
+    <h1>Leave a message</h1>
+    <input type="text" id="name" placeholder="Name">
+    <input type="email" id="email" placeholder="Email">
+    <textarea id="message" placeholder="Message"></textarea>
+    <button type="button" id="sendBtn">Send</button>
+</form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy;uzair khalid
+    </footer>
+
+    <script src="./script.js">
+       
+    </script>
+</body>
+
+</html>
