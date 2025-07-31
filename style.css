@@ -788,7 +788,6 @@ body {
 .contact-details h1{
     text-align: center;
     color: #fff;
-    margin-bottom: 40px;
 }
 .contact-details h1:hover{
     color: #1dc9cf;
@@ -801,7 +800,7 @@ body {
     text-align: center;
     text-decoration: none;
     color: #fff;
-    margin-bottom: 30px;
+    margin-top: 40px;
    }
 
 .contact-details a:hover{
@@ -811,18 +810,24 @@ body {
 .contact-details a{
     text-decoration: none;
     color: #fff;
-    margin-bottom: 10px;
    }
 
-   .contact-details .icons{
+   .contact-details .icons img{
         display: flex;
         align-items: center;
-        margin-top: 40px;
+        margin-top: 50px;
         color: #fff;
+        opacity: 0.7;
+   }
+   .contact-details .icons img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    border: 2px solid #1dc9cf;
    }
    .contact-details .icons{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        margin: 20px;
         align-items: center;
    }
     .icons img{
@@ -831,7 +836,6 @@ body {
         display: flex;
         align-items:center;
         justify-content: center;
-
         border-radius: 50%;
         color: #fff;
         border: none;
