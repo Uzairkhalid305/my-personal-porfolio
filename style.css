@@ -104,7 +104,7 @@ body {
          top: 35px;
          right: 20px;
          width: 25%;
-         height: 50%;
+         height: 40%;
          background: rgba(0, 0, 0, .1);
          display: none;
          border-radius: 2px;
@@ -116,7 +116,6 @@ body {
          display: flex;
          justify-content: center;
          align-items: center;
-         margin-right: 30px;
 
      }
 
@@ -135,6 +134,7 @@ body {
 
      #menu {
          display: block;
+         color: #1dc9cf;
      }
 
      #menu:hover {
@@ -145,6 +145,7 @@ body {
  /* section-1 started */
  #home {
      margin-bottom: 2px;
+     padding: 50px;
      border-radius: 10px;
      background: #071d22;
      width: 100%;
@@ -786,8 +787,7 @@ body {
 .contact-details h1{
     text-align: center;
     color: #fff;
-    margin-top: -45px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 .contact-details h1:hover{
     color: #1dc9cf;
@@ -795,30 +795,33 @@ body {
     cursor: pointer;
     border-bottom: 2px solid #1dc9cf;
 }
-.contact-details label{
-    font-size: 1rem;
-    font-weight: 600;
-    color: #fff;
-    margin-left: 10px;
-}
-.contact-details a{
-    margin-top: -18px;
-    margin-left: 50px;
+
+.contact-details p{
     text-align: center;
     text-decoration: none;
     color: #fff;
     margin-bottom: 30px;
    }
+
 .contact-details a:hover{
-    text-decoration: underline;
     color: #fff;
     color: rgb(17, 17, 119); 
+   }
+.contact-details a{
+    text-decoration: none;
+    color: #fff;
    }
 
    .contact-details .icons{
         display: flex;
         align-items: center;
+        margin-top: 20px;
         color: #fff;
+   }
+   .contact-details .icons{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
    }
     .icons img{
         width: 40px;
@@ -826,8 +829,7 @@ body {
         display: flex;
         align-items:center;
         justify-content: center;
-        margin-left: -10px;
-        margin-right: 10px;
+
         border-radius: 50%;
         color: #fff;
         border: none;
