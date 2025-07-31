@@ -266,6 +266,7 @@ body {
  }
  @media(max-width:769px){
      #home {
+        padding: 50px;
      background: #071d22;
      width: 100%;
      height: auto;
@@ -810,12 +811,13 @@ body {
 .contact-details a{
     text-decoration: none;
     color: #fff;
+    margin-bottom: 10px;
    }
 
    .contact-details .icons{
         display: flex;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 40px;
         color: #fff;
    }
    .contact-details .icons{
